@@ -1,0 +1,73 @@
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.playVideoBox {
+  flex: 8 1 0%;
+  width: 100vw;
+  position: relative;
+  display: flex;
+}
+
+.backgroundBox {
+  background-position: center center;
+  background-size: cover;
+  flex: 8 1 0%;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.featuredMain {
+  color: white;
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 8%;
+  display:flex;
+  flex-direction: column;
+}
+
+.featuredMain .featuredCategory {
+  color: gray;
+  font-size: 1.3rem;
+}
+.buttonWrapper {
+    margin-top: 8px;
+}
+
+.buttonWrapper button {
+    font-size: 1.2rem ;
+    border-radius: 24px;
+    padding: -5px;
+    text-transform: capitalize;
+}
+
+.buttonWrapper .playButton {
+  background: white;
+  color: black; 
+  margin-right: 10px;
+}
+
+.moreInfoButton {
+  background: linear-gradient(to right, #2325e5, #051881);
+}
+
+.featuredMain .trendingNow {
+  margin-top: auto;
+  padding-bottom: 30px;
+}
+
+.caruselBox {
+  flex: 2 1 0%;
+  background-color: black;
+  padding: 0;
+  margin-top: 0;
+}
+
+.titleImage {
+  max-width: 100%;
+  height: auto; 
+}
